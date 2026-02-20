@@ -42,7 +42,10 @@ function Footer() {
       </div>
 
       <div className="footer-bottom">
-        <p>© {new Date().getFullYear()} El Refugio · Todos los derechos reservados</p>
+        {/* <p>© {new Date().getFullYear()} El Refugio · Todos los derechos reservados</p> */}
+        <footer className="footer">
+  <p>© {new Date().getFullYear()} Bar El Refugio — Diseñado y desarrollado por <span>Ramiro González</span>.</p>
+</footer>
       </div>
     </footer>
   )

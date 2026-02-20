@@ -6,6 +6,19 @@
   position: relative;
 }
 
+/* .footer {
+  background-color: #111;
+  color: #b8b8b8;
+  text-align: center;
+  padding: 1.2rem 0;
+  font-size: 0.95rem;
+} */
+
+.footer span {
+  color: #c59d5f;
+  font-weight: 600;
+}
+
 .footer-container {
   max-width: 1200px;
   margin: 0 auto;
