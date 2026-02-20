@@ -1,0 +1,11 @@
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import App from './App.jsx'
+import '../src/Css/style.css'
+import 'bootstrap/dist/css/bootstrap.css'; // Importa los estilos CSS de Bootstrap
+
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
